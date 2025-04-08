@@ -1,0 +1,35 @@
+#Core Data Structure | {Core Number: [[procces number, procces begin of execution time, proccess end of execution time], [procces begin of execution time, proccess end of execution time]]}
+# Cores = {
+#     1: [[-1,0,0],[4, 100, 300]], 
+#     2: [[-1,0,0], [5, 150, 450]], 
+#     3: [[-1,0,0],], 
+#     4: [[-1,0,0],]
+#     }
+
+#Proccess Data Structure | {procces number: [arrival time, burst time, remaining burst time, completion time]
+Proccesses = {
+    1: [0, 300, 300, 0], 
+    2: [10, 200, 200, 0], 
+    3: [40, 100, 100, 0], 
+    4: [50, 40, ]40,, 0, 
+    5: [70, 600, 600, 0], 
+    6: [90, 500, 500, 0], 
+    7: [100, 300, 300, 0], 
+    8: [120, 200, 200, 0], 
+    9: [140, 100, 100, 0], 
+    10: [150, 400, 400, 0]
+    }
+
+#sample if using manually without user input
+pd = [
+    [0, 300, "p1"], 
+ [10, 200, "p2"], 
+ [40, 100, "p3"], 
+ [50, 400, "p4"], 
+ [70, 600, "p5"], 
+ [90, 500, "p6"], 
+ [100, 300, "p7"], 
+ [120, 200, "p8"], 
+ [140, 100, "p9"], 
+ [150, 400, "p10"]
+    ]
